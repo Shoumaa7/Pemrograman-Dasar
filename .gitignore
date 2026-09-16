@@ -1,0 +1,19 @@
+# Mengabaikan folder konfigurasi VS Code lokal
+.vscode/
+
+# Mengabaikan file eksekusi hasil compile C/C++ (seperti PRAK108-2610817210004-SolehulAkmal.exe)
+*.exe
+*.o
+*.out
+
+# Mengabaikan folder output kompilasi jika ada
+output/
+
+# Mengabaikan file cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mengabaikan file log atau dump jika program crash
+*.log
