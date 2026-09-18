@@ -1,8 +1,8 @@
-sepatuA = 400000
-sepatuB = 350000
+shoesA = 400000
+shoesB = 350000
 
-print(f"\nHarga sepatu A adalah {sepatuA}")
-print(f"Harga sepatu B adalah {sepatuB}")
+print(f"\nHarga sepatu A adalah {shoesA}")
+print(f"Harga sepatu B adalah {shoesB}")
 
-print(f"Sepatu A mendapat diskon 13% sehingga harganya menjadi {sepatuA - (sepatuA * 13 / 100):.0f}")
-print(f"Sepatu B mendapat diskon 21% sehingga harganya menjadi {sepatuB - (sepatuB * 21 / 100):.0f}\n")
+print(f"Sepatu A mendapat diskon 13% sehingga harganya menjadi {shoesA - (shoesA * 13 / 100):.0f}")
+print(f"Sepatu B mendapat diskon 21% sehingga harganya menjadi {shoesB - (shoesB * 21 / 100):.0f}\n")

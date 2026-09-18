@@ -1,12 +1,12 @@
-sisi1 = 4
-sisi2 = 5
-sisi3 = 7
-keliling = sisi1 + sisi2 + sisi3
-hargaTanah = 85000
+side1 = 4
+side2 = 5
+side3 = 7
+perimeter = side1 + side2 + side3
+landPrice = 85000
 
 print(f"\nDiketahui:")
-print(f"Panjang sisi segitiga berturut-turut adalah {sisi1}, {sisi2}, {sisi3}")
-print(f"Keliling tanah pak dengklek adalah {keliling}")
-print(f"Harga tanah per meter adalah {hargaTanah}")
+print(f"Panjang sisi segitiga berturut-turut adalah {side1}, {side2}, {side3}")
+print(f"Keliling tanah pak dengklek adalah {perimeter}")
+print(f"Harga tanah per meter adalah {landPrice}")
 print(f"Jawaban:")
-print(f"Biaya yang diperlukan pak Dengklek adalah {keliling * hargaTanah}\n")
+print(f"Biaya yang diperlukan pak Dengklek adalah {perimeter * landPrice}\n")
