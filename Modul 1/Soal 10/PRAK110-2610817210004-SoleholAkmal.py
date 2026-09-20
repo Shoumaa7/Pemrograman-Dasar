@@ -16,4 +16,3 @@ print(f"Sisi B = {hypotenuse}")
 print(f"Sisi C = {base}")
 print(f"Keliling = {perimeter}")
 print(f"Luas = {area}\n")
-
