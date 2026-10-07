@@ -2,7 +2,6 @@
 
 int main() {
     int n;
-
     printf("\nNilai N : ");
     scanf("%d", &n);
 

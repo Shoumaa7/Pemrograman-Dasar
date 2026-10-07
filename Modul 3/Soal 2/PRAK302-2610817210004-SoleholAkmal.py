@@ -9,5 +9,4 @@ elif value >= 60 :
 elif value >= 50 :
     print(f"\nPredikat : D\n")
 else :
-    print(f"\nPredikat : E\n")
-
+    print(f"\nPredikat : E\n") 
