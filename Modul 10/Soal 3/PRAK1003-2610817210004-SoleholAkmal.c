@@ -9,7 +9,7 @@ int totalDigit(int n) {
 }
 
 int main() {
-    int number, result;
+    int number;
     
     printf("\nMasukkan Bilangan Bulat Positif: ");
     scanf("%d", &number);

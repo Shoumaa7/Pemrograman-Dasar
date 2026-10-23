@@ -33,7 +33,6 @@ int main() {
                 scanf("%lf", &value2);
                 printf("\nHasil Penjumlahan Antara %.2f dengan %.2f Adalah %.2f\n\n", value1, value2, value1 + value2);
                 break;
-
             case 2:
                 printf("\nMasukkan Nilai Pertama : ");
                 scanf("%lf", &value1);
@@ -41,7 +40,6 @@ int main() {
                 scanf("%lf", &value2);
                 printf("\nHasil Pengurangan Antara %.2f dengan %.2f Adalah %.2f\n\n", value1, value2, value1 - value2);
                 break;
-
             case 3:
                 printf("\nMasukkan Nilai Pertama : ");
                 scanf("%lf", &value1);
@@ -49,19 +47,13 @@ int main() {
                 scanf("%lf", &value2);
                 printf("\nHasil Perkalian Antara %.2f dengan %.2f Adalah %.2f\n\n", value1, value2, value1 * value2);
                 break;
-
             case 4:
                 printf("\nMasukkan Nilai Pertama : ");
                 scanf("%lf", &value1);
                 printf("Masukkan Nilai Kedua : ");
                 scanf("%lf", &value2);
-                if (value2 == 0) {
-                    printf("\nError: Pembagian dengan nol tidak diperbolehkan!\n\n");
-                } else {
-                    printf("\nHasil Pembagian Antara %.2f dengan %.2f Adalah %.2f\n\n", value1, value2, value1 / value2);
-                }
+                printf("\nHasil Pembagian Antara %.2f dengan %.2f Adalah %.2f\n\n", value1, value2, value1 / value2);
                 break;
-
             case 5:
                 printf("\nTerimakasih Telah Menggunakan Kalkulator Solehol Akmal\n\n");
                 return 0;
