@@ -10,5 +10,7 @@ int main() {
     printf("\nNilai variabel = %d", value);
     printf("\nAlamat variabel = %p", p);
     printf("\nNilai melalui pointer = %d", *p);
-    printf("\nNilai setelah diubah lewat pointer = %d\n\n", *p * 2);
+
+    *p = *p * 2;
+    printf("\nNilai setelah diubah lewat pointer = %d\n\n", value);
 } 

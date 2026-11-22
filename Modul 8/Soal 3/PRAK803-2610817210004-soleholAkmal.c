@@ -22,6 +22,6 @@ int main() {
 
     printf("\nData Peserta:");
     printf("\nNama : %s", p1.name);
-    printf("\nUmur : %d", p1.age);
+    printf("\nUmur : %d tahun", p1.age);
     printf("\nSkor : %d\n\n", p1.score);
 }
