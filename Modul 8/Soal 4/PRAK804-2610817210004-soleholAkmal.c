@@ -26,4 +26,4 @@ int main() {
     }
 
     printf("\nPeserta dengan skor tertinggi adalah %s dengan skor %d\n\n", nameResult, result);
-}
+} 

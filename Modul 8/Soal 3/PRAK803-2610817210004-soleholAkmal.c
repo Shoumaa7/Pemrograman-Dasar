@@ -24,4 +24,4 @@ int main() {
     printf("\nNama : %s", p1.name);
     printf("\nUmur : %d tahun", p1.age);
     printf("\nSkor : %d\n\n", p1.score);
-}
+} 
